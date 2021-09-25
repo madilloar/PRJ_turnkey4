@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  turnkey4:
+    build: .
+    volumes:
+      - turnkey4_vol:/opt/turnkey4
+    environment:
+      - TZ=Japan/Tokyo
+    ports:
+      - 8038:8038
+      - 3270:3270
+
+volumes:
+  turnkey4_vol:
