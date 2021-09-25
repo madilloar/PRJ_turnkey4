@@ -1,4 +1,11 @@
-# PRJ_turnkey4
+# turnkey4 mvs38j docker project
+
+まずは、このプロジェクトを``git clone``します。
+
+```
+git clone https://github.com/madilloar/PRJ_turnkey4.git
+```
+
 ## 事前準備
 ### ホストOSでc3270エミュレータをインストールする
 ```
@@ -7,11 +14,12 @@ sudo apt-get install c3270
 
 ### ホストOSのxtermでHOMEキーとENDキーを使えるようにxterm_myを登録する
 ```
-sudo tic xterm_my
+sudo tic xterm_my.src
 ```
 
 ### TeraTermでファンクションキーが使えるようにする
-起動オプションで``/K=TeraTerm_VT220.CNF``を指定する。
+``TeraTerm_VT220.CNF``ファイルを``ttermpro.exe``と同じフォルダに置きます。
+そして、``ttermpro.exe``の起動引数に``/K=TeraTerm_VT220.CNF``を指定します。
 
 ## ビルド
 ```
