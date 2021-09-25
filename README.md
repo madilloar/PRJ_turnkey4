@@ -11,7 +11,7 @@ sudo tic xterm_my
 ```
 
 ### TeraTermでファンクションキーが使えるようにする
-起動オプションで``/K=FUNCTION.CNF``を指定する。
+起動オプションで``/K=TeraTerm_VT220.CNF``を指定する。
 
 ## ビルド
 ```
