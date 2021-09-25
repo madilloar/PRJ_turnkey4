@@ -1,0 +1,38 @@
+[VT numeric keypad]
+Num0=off
+Num1=off
+Num2=off
+Num3=off
+Num4=off
+Num5=off
+Num6=off
+Num7=off
+Num8=off
+Num9=off
+NumPlus=off
+NumPeriod=off
+NumEnter=off
+NumSlash=off
+NumAsterisk=off
+NumMinus=off
+
+; X function keysを全てOFFにします。
+[X function keys]
+XF1=off
+XF2=off
+XF3=off
+XF4=off
+XF5=off
+; F1からF5までのエスケープシーケンスを定義します。
+[User keys]
+; F1
+User1=59,0,$1BOP
+; F2
+User2=60,0,$1BOQ
+; F3
+User3=61,0,$1BOR
+; F4
+User4=62,0,$1BOS
+; F5
+User5=63,0,$1BOT
+
