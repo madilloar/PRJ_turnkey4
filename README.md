@@ -10,6 +10,9 @@ sudo apt-get install c3270
 sudo tic xterm_my
 ```
 
+### TeraTermでファンクションキーが使えるようにする
+起動オプションで``/K=FUNCTION.CNF``を指定する。
+
 ## ビルド
 ```
 docker-compose build
