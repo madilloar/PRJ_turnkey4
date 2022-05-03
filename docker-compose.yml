@@ -10,6 +10,7 @@ services:
     ports:
       - 8038:8038
       - 3270:3270
+      - 3505:3505
 
 volumes:
   turnkey4_vol:
