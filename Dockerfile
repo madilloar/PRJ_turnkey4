@@ -7,7 +7,7 @@ RUN apt-get update && \
 ##
   mkdir -p /tmp/src/turnkey4 && \
   cd /tmp/src/turnkey4 && \
-  wget -q http://wotho.ethz.ch/tk4-/tk4-_v1.00_current.zip && \
+  wget -q https://wotho.ethz.ch/tk4-/tk4-_v1.00_current.zip && \
   echo "Hash: $(md5sum /tmp/tk4-_v1.00_current.zip)" >> /tmp/MD5SUMS && \
   echo "$(date)" >> /tmp/MD5SUMS && \
   cat /tmp/MD5SUMS && \
