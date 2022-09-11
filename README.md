@@ -32,7 +32,7 @@ docker-compose up -d
 docker exec -it prj_turnkey4_turnkey4_1 bash -c 'tail -f /opt/turnkey4/log/3033.log'
 ```
 
-こらがログに出たら起動完了。
+これがログに出たら起動完了。
 ```
 HHC01603I *
 HHC01603I *                           ************   ****  *****          ||
