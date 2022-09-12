@@ -192,7 +192,7 @@ shutdown
 ```
 
 ## COBOLプログラムを作って、Hello World!を試す
-COBOLプログラムとそれをコンパイル＆リンクするJCLの``hello.jcl``を``hercsub``perlスクリプトを使って、mvsのポート3050に流し込んでSUBMITします。
+COBOLプログラムとそれをコンパイル＆リンクするJCLの``hellocob.jcl``を``hercsub``perlスクリプトを使って、mvsのポート3050に流し込んでSUBMITします。
 
 ```
 ./hercsub localhost:3505 hellocob.jcl
