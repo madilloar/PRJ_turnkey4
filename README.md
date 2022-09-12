@@ -85,11 +85,6 @@ Terminal   CUU0C1                                                 Date  11.09.22
             TK3 created by Volker Bandke       vbandke@bsp-gmbh.com
             TK4- update by Juergen Winkelmann  winkelmann@id.ethz.ch
                      see TK4-.CREDITS for complete credits
-
-                              MVS 3.8j Level 8505
-
-Logon ===>
-                                                            RUNNING  TK4-
 ```
 
 <s>``Logon ===>``プロンプトのところで``HERC01``と入力します。</s>
