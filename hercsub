@@ -1,0 +1,24 @@
+#!/usr/bin/perl
+use Socket;
+use IO::Socket::UNIX;
+use IO::Socket::INET;
+
+if (@ARGV < 1) {
+  print STDERR "Usage: hercsub socket_spec [job]\n";
+  exit 2;
+}
+
+my $spec = shift @ARGV;
+my $sock;
+
+if ($spec =~ m{^/}) {
+  $sock = IO::Socket::UNIX->new(Peer => $spec);
+} else {
+  $sock = IO::Socket::INET->new(PeerAddr => $spec);
+}
+
+die "Failed to connect to socket $spec: $!\n" unless defined($sock);
+
+while (<>) {
+  print $sock $_;
+}
