@@ -12,7 +12,7 @@ git clone https://github.com/madilloar/PRJ_turnkey4.git
 sudo apt-get install c3270
 ```
 
-## ホストOSのでHOMEキーとENDキーを使えるようにxterm_myを登録する
+## ホストOSでHOMEキーとENDキーを使えるようにxterm_myを登録する
 ```
 sudo tic xterm_my.src
 ```
@@ -189,6 +189,13 @@ shutdown
 
 ```
 09.23.40           $HASP085 JES2 TERMINATION COMPLETE
+```
+
+## COBOLプログラムを作って、Hello World!を試す
+COBOLプログラムとそれをコンパイル＆リンクするJCLの``hello.jcl``を``hercsub``perlスクリプトを使って、mvsのポート3050に流し込んでSUBMITします。
+
+```
+./hercsub localhost:3505 hellocob.jcl
 ```
 
 ## 参考URL
