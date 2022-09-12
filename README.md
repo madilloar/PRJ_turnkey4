@@ -92,7 +92,9 @@ Logon ===>
                                                             RUNNING  TK4-
 ```
 
-``Logon ===>``プロンプトのところで``HERC01``と入力します。
+<s>``Logon ===>``プロンプトのところで``HERC01``と入力します。</s>
+``Logon ===>``プロンプトが表示されていないときは``Enter``キーを押下します。
+すると、``INPUT NOT RECOGNIZED``と画面に表示されまるので、``HERC01``と入力し、``Enter``キーを押下します。
 
 `` ENTER CURRENT PASSWORD FOR HERC01-``とパスワード要求が来ますので、``CUL8TR``と入力します。
 
