@@ -198,6 +198,26 @@ COBOLプログラムとそれをコンパイル＆リンクするJCLの``hello.j
 ./hercsub localhost:3505 hellocob.jcl
 ```
 
+mvsのlogに次が出ていると思います。
+
+```
+HHC01040I 0:000C COMM: client <unknown>, ip 172.18.0.1 connected to device 3505
+HHC01206I 0:000C Card: client <unknown>, ip 172.18.0.1 disconnected from device 3505
+11.17.39 JOB    2  $HASP100 COBOL    ON READER1     MADILLOAR
+11.17.39 JOB    2  IEF677I WARNING MESSAGE(S) FOR JOB COBOL    ISSUED
+11.17.39 JOB    2  $HASP373 COBOL    STARTED - INIT  1 - CLASS A - SYS TK4-
+11.17.39 JOB    2  IEF403I COBOL - STARTED - TIME=11.17.39
+11.17.39 JOB    2  +Hello World!
+11.17.39 JOB    2  IEF404I COBOL - ENDED - TIME=11.17.39
+11.17.39 JOB    2  $HASP395 COBOL    ENDED
+11.17.39           $HASP309    INIT  1 INACTIVE ******** C=A
+11.17.39 JOB    2  $HASP150 COBOL    ON PRINTER1       370 LINES
+11.17.39           $HASP160 PRINTER1 INACTIVE - CLASS=A
+11.17.39 JOB    2  $HASP250 COBOL    IS PURGED
+11.29.52 STC   28  $HASP150 MF1      ON PRINTER1       211 LINES
+11.29.52           $HASP160 PRINTER1 INACTIVE - CLASS=A
+11.29.52 STC   28  IRB101I MF/1 REPORT AVAILABLE FOR PRINTING
+```
 ## 参考URL
 ユーザマニュアル:
 https://wotho.ethz.ch/tk4-/MVS_TK4-_v1.00_Users_Manual.pdf
