@@ -6,4 +6,3 @@ if [ ! -e ${FILE} ]; then
   cd /opt/turnkey4
 fi
 exec "$@"
-
