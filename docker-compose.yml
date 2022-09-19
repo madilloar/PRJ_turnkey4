@@ -6,7 +6,7 @@ services:
     volumes:
       - turnkey4_vol:/opt/turnkey4
     environment:
-      - TZ=Japan/Tokyo
+      - TZ=UTC
     ports:
       - 8038:8038
       - 3270:3270
